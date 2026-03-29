@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 import booking from "../assets/Images/booking.jfif"
 import facebook from "../assets/Images/facebook.jfif"
 import review from "../assets/Images/cinema.png"
+import sentiment from "../assets/Images/sentiment.png"
 import ProjectCard from "./ProjectCard"
 
 function Projects() {
@@ -9,25 +10,33 @@ function Projects() {
   const projects = [
     {
       name: "Facebook Clone",
-      tech: "React + Spring Boot",
+      tech: "React + Spring Boot + websocket",
       github: "https://github.com/Huy-NTG/facebook_clone.git",
       demo: "#",
       image: facebook
     },
     {
       name: "Booking Management System",
-      tech: "Spring Boot + JWT",
+      tech: "Spring Boot + JWT + React",
       github: "https://github.com/Huy-NTG/chuyendeJ2EE.git",
       demo: "#",
       image: booking
     },
     {
       name: "Review Cinema App",
-      tech: "HTML CSS JS",
-      github: "https://github.com/Huy-NTG/modern_programming_technology.git",
-      demo: "#",
+      tech: "React + the moviedb API",
+      github: "https://github.com/Huy-NTG/cinema_react.git",
+      demo: "https://cinema-react-of23l89u5-huy-ntgs-projects.vercel.app/homepage",
       image: review
-    }
+    },
+    {
+      name: "Vietnamese Sentiment assistant",
+      tech: "Python + Streamlit + HuggingFace API",
+      github: "https://github.com/Huy-NTG/sentiment_assistant_seminar.git",
+      demo: "https://sentimentassistantseminar.streamlit.app/",
+      image: sentiment
+    },
+
   ]
 
   return (
