@@ -3,14 +3,14 @@ import { motion } from "framer-motion"
 function Skills() {
 
   const skills = [
-    { name: "Java", level: 90 },
-    { name: "Spring Boot", level: 85 },
-    { name: "React", level: 75 },
-    { name: "JavaScript", level: 80 },
-    { name: "Python", level: 70 },
-    { name: "MySQL", level: 80 },
-    { name: "Docker", level: 65 },
-    { name: "Git", level: 85 }
+    { name: "Java", level: 60 },
+    { name: "Spring Boot", level: 60 },
+    { name: "React", level: 70 },
+    { name: "JavaScript", level: 70 },
+    { name: "Python", level: 60 },
+    { name: "MySQL", level: 75 },
+    { name: "Docker", level: 50 },
+    { name: "Git", level: 80 }
   ]
 
   return (
